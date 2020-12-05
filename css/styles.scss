@@ -1,0 +1,89 @@
+/* navigation */
+.navbar {
+  background-color: white;
+  margin-bottom: 20px;
+.navbar-brand{
+  padding-left: 100px;
+}
+.nav-link{
+  color:#E58081;
+}
+.navbar-toggler{
+  color:#E58081;
+  background-color: #E58081;
+  padding-right:20px;
+}
+}
+/* basic */
+html,
+body {
+  font-family: "Futura",sans-serif;
+  height: 100%;
+  background-image: url("../images/back-01.png");
+  text-align: center;
+}
+
+@media(min-width:768px){
+	.container-1{
+		display:flex;
+		justify-content:space-around;
+		flex-wrap:wrap;
+	}
+}
+
+.container-1 div{
+  border:1px;
+	background-color: rgba(255,255,255,0.5);
+	padding:10px;
+}
+.container-1-box{
+ flex-basis: 40%;
+}
+h5{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+h2{
+	color: #E58081;
+  text-shadow: 2px 2px 2px #DAA9A4;
+  font-size: 150%;
+  padding-bottom:10px;
+  padding-left: 2rem;
+  background-image: url("../images/groovy-flower-gif-6.gif");
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+ul{
+  list-style: none;
+}
+p{
+	padding-bottom:1em;
+}
+.about-me {
+    height:80px;
+    padding-bottom:5px;
+  }
+.me{
+  width:100%;
+}
+.title{
+  font-style: oblique;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.date{
+  font-style:oblique;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+a:link {
+	    color: black;
+	}
+	a:visited {
+	    color: #DF9157;
+	}
+	a:hover {
+	    color: #E58081;
+	}
